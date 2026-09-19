@@ -1,11 +1,12 @@
 import requests
 import json
+import os
 from datetime import datetime
 
-# 1. Credenziali
-TOKEN = "8853856455:AAG14_gp3tDTCUpSaqMcwLsoX4FmjrHTJVA"
+# 1. Credenziali (ora le prendiamo dalla cassaforte di GitHub)
+TOKEN = os.environ.get('TELEGRAM_TOKEN')
 chat_id = "8582302114"
-GNEWS_API_KEY = "073161d8ba7b8ff3e2d8f4419c54597c"
+GNEWS_API_KEY = os.environ.get('GNEWS_API_KEY')
 
 # 2. Leggi il calendario
 with open("schedule.json", encoding="utf-8") as file:
@@ -62,7 +63,7 @@ try:
         messaggio += "Nessuna news trovata oggi.\n"
         
 except Exception as e:
-    messaggio += f"️ Errore nel recupero news: {str(e)}\n"
+    messaggio += f"⚠️ Errore nel recupero news: {str(e)}\n"
 
 # 6. Invia a Telegram
 url_telegram = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
