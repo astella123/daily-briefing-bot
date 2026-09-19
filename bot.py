@@ -31,8 +31,12 @@ messaggio += "🌍 *NEWS DEL GIORNO*\n"
 url_news = f"https://gnews.io/api/v4/top-headlines?country=it&category=general&lang=it&max=5&apikey={GNEWS_API_KEY}"
 
 try:
-    risposta_news = requests.get(url_news).json()
-    articoli = risposta_news.get("articles", [])
+    risposta_news = requests.get(url_news)
+    print(f"Status code GNews: {risposta_news.status_code}")
+    print(f"Risposta grezza: {risposta_news.text[:200]}")
+    
+    articoli = risposta_news.json().get("articles", [])
+    print(f"Numero articoli trovati: {len(articoli)}")
     
     # Filtra duplicati e prendi solo i primi 3 unici
     titoli_visti = set()
@@ -40,7 +44,6 @@ try:
     
     for articolo in articoli:
         titolo = articolo.get("title", "Senza titolo")
-        # Salta se il titolo è già stato usato
         if titolo in titoli_visti:
             continue
             
@@ -63,7 +66,7 @@ try:
         messaggio += "Nessuna news trovata oggi.\n"
         
 except Exception as e:
-    messaggio += f"⚠️ Errore nel recupero news: {str(e)}\n"
+    messaggio += f"️ Errore nel recupero news: {str(e)}\n"
 
 # 6. Invia a Telegram
 url_telegram = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
