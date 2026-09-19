@@ -1,0 +1,48 @@
+{
+  "Lunedì": [
+    {"ora": "08:00-10:00", "tipo": "Lezione", "testo": "Contabilità (Cripta)"},
+    {"ora": "10:15-11:00", "tipo": "Studio", "testo": "Appunti Contabilità"},
+    {"ora": "11:00-12:30", "tipo": "Studio", "testo": "Integrazione Libro Contabilità"},
+    {"ora": "14:00-16:00", "tipo": "Lezione", "testo": "Microeconomia (Caparrelli A)"},
+    {"ora": "16:15-17:00", "tipo": "Studio", "testo": "Appunti Microeconomia"},
+    {"ora": "17:00-18:00", "tipo": "Skill", "testo": "Esercitazione Step 1-3"}
+  ],
+  "Martedì": [
+    {"ora": "09:00-11:30", "tipo": "Studio", "testo": "Microeconomia (Varian) + Diritto Privato"},
+    {"ora": "12:00-14:00", "tipo": "Lezione", "testo": "Microeconomia (Caparrelli A)"},
+    {"ora": "15:30-16:30", "tipo": "Studio", "testo": "Appunti & Studio Attivo Microeconomia"},
+    {"ora": "16:30-17:30", "tipo": "Skill", "testo": "Esercitazione Step 1-3 (Modelli Micro)"},
+    {"ora": "17:30-19:00", "tipo": "Skill", "testo": "Progetto 1 (Daily Briefing Bot)"}
+  ],
+  "Mercoledì": [
+    {"ora": "10:00-12:00", "tipo": "Lezione", "testo": "Contabilità (Caparrelli A)"},
+    {"ora": "12:00-14:00", "tipo": "Lezione", "testo": "Microeconomia (Caparrelli A)"},
+    {"ora": "14:00-16:00", "tipo": "Lezione", "testo": "Matematica Finanziaria (Caparrelli A)"},
+    {"ora": "16:00-18:00", "tipo": "Lezione", "testo": "Diritto Privato (Caparrelli A)"},
+    {"ora": "18:30-19:30", "tipo": "Studio", "testo": "Scansione quaderni (4 lezioni)"}
+  ],
+  "Giovedì": [
+    {"ora": "08:00-10:00", "tipo": "Lezione", "testo": "Diritto Privato (Aula 3)"},
+    {"ora": "10:15-11:00", "tipo": "Studio", "testo": "Appunti Diritto Privato"},
+    {"ora": "11:00-12:30", "tipo": "Studio", "testo": "Integrazione Diritto Privato (Torrente + Codice Civile)"},
+    {"ora": "14:00-16:00", "tipo": "Lezione", "testo": "Matematica Finanziaria (Caparrelli B)"},
+    {"ora": "16:00-18:00", "tipo": "Lezione", "testo": "Diritto Privato (Aula 3)"},
+    {"ora": "18:15-19:00", "tipo": "Studio", "testo": "Appunti Mat. Finanziaria e Diritto II"},
+    {"ora": "19:00-20:00", "tipo": "Skill", "testo": "Esercitazione Step 1-3 (Mat. Fin. & Diritto)"}
+  ],
+  "Venerdì": [
+    {"ora": "09:00-11:30", "tipo": "Studio", "testo": "Buffer Zone / Recupero Matematica Finanziaria"},
+    {"ora": "12:00-14:00", "tipo": "Lezione", "testo": "Contabilità (Caparrelli A)"},
+    {"ora": "14:00-16:00", "tipo": "Lezione", "testo": "Matematica Finanziaria (Caparrelli B)"},
+    {"ora": "16:45-17:30", "tipo": "Studio", "testo": "Appunti Contabilità & Mat. Finanziaria"},
+    {"ora": "17:30-18:30", "tipo": "Skill", "testo": "Esercitazione Step 1-3 (Partita Doppia e Regimi)"},
+    {"ora": "18:30-19:45", "tipo": "Skill", "testo": "Progetto 1 (Sviluppo Bot)"}
+  ],
+  "Sabato": [
+    {"ora": "09:30-12:30", "tipo": "Skill", "testo": "Prova del Sabato: Simulazione reale di parziale d'esame"},
+    {"ora": "12:30-13:30", "tipo": "Studio", "testo": "Analisi Correzioni & Ricalibrazione"}
+  ],
+  "Domenica": [
+    {"ora": "10:00-11:30", "tipo": "Skill", "testo": "Report Domenicale: Audit 4 pilastri + Vault Pruning + Sprint Planning"}
+  ]
+}
