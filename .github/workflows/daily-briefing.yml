@@ -1,0 +1,30 @@
+name: Daily Briefing Bot
+
+on:
+  schedule:
+    # Esegue ogni giorno alle 7:00 UTC (che sono le 8:00 o 9:00 in Italia)
+    # Per le 7:00 italiane, usiamo 06:00 UTC (inverno) o 05:00 UTC (estate)
+    - cron: '0 6 * * *'
+
+jobs:
+  send-briefing:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests
+      
+      - name: Run bot
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+        run: python bot.py
