@@ -1,12 +1,12 @@
 name: Daily Briefing Bot
 
 on:
-  workflow_dispatch:  # Permette di lanciarlo manualmente
+  workflow_dispatch:  # Permette lancio manuale
   schedule:
-    # Esegue ogni giorno alle 7:00 UTC (che sono le 8:00 o 9:00 in Italia)
-    # Per le 7:00 italiane, usiamo 06:00 UTC (inverno) o 05:00 UTC (estate)
-    - cron: '0 6 * * *'
-
+    - cron: '0 5 * * *'  # 5:00 UTC = 7:00 italiane (ora legale)
+  push:
+    branches: [ main ]  # Si attiva anche con push ( workaround )
+    
 jobs:
   send-briefing:
     runs-on: ubuntu-latest
