@@ -1,11 +1,9 @@
 name: Daily Briefing Bot
 
 on:
-  workflow_dispatch:  # Permette lancio manuale
-  schedule:
-    - cron: '0 5 * * *'  # 5:00 UTC = 7:00 italiane (ora legale)
+  workflow_dispatch:
   push:
-    branches: [ main ]  # Si attiva anche con push ( workaround )
+    branches: [ main ]
     
 jobs:
   send-briefing:
