@@ -1,0 +1,54 @@
+{
+  "Lunedi": [
+    {"ora": "08:00-10:00", "tipo": "Lezione", "testo": "Contabilità (Cripta)"},
+    {"ora": "10:00-11:00", "tipo": "Studio", "testo": "Post-Lezione Contabilità (riordino + drill)"},
+    {"ora": "11:00-12:00", "tipo": "Studio", "testo": "Studio Contabilità (Di Pietra/Catturi)"},
+    {"ora": "14:00-16:00", "tipo": "Lezione", "testo": "Microeconomia (Caparrelli A)"},
+    {"ora": "16:00-17:00", "tipo": "Studio", "testo": "Post-Lezione Microeconomia (riordino + drill)"},
+    {"ora": "17:00-18:00", "tipo": "Studio", "testo": "Studio Microeconomia (Varian)"}
+  ],
+  "Martedi": [
+    {"ora": "08:00-10:00", "tipo": "Studio", "testo": "Studio Diritto Privato (Manuale)"},
+    {"ora": "10:00-11:00", "tipo": "Studio", "testo": "Studio Mat. Finanziaria (Dimostrazioni)"},
+    {"ora": "12:00-14:00", "tipo": "Lezione", "testo": "Microeconomia (Caparrelli A)"},
+    {"ora": "14:00-16:00", "tipo": "Lezione", "testo": "Esercitazione Microeconomia (Zappia)"},
+    {"ora": "16:00-17:00", "tipo": "Studio", "testo": "Post-Lezione Micro (lezione + esercitazione)"},
+    {"ora": "17:00-18:00", "tipo": "Skill", "testo": "Rifai da solo esercizi esercitazione Zappia"}
+  ],
+  "Mercoledi": [
+    {"ora": "10:00-12:00", "tipo": "Lezione", "testo": "Contabilità (Caparrelli A)"},
+    {"ora": "12:00-14:00", "tipo": "Lezione", "testo": "Microeconomia (Caparrelli A)"},
+    {"ora": "14:00-16:00", "tipo": "Lezione", "testo": "Matematica Finanziaria (Caparrelli A)"},
+    {"ora": "16:00-18:00", "tipo": "Lezione", "testo": "Diritto Privato (Caparrelli A)"}
+  ],
+  "Giovedi": [
+    {"ora": "08:00-10:00", "tipo": "Lezione", "testo": "Diritto Privato (Aula 3)"},
+    {"ora": "10:00-11:00", "tipo": "Studio", "testo": "Post-Lezione Diritto Privato"},
+    {"ora": "11:00-11:30", "tipo": "Studio", "testo": "Smaltimento Mercoledì - Contabilità"},
+    {"ora": "11:30-12:00", "tipo": "Studio", "testo": "Smaltimento Mercoledì - Microeconomia"},
+    {"ora": "12:00-12:30", "tipo": "Studio", "testo": "Smaltimento Mercoledì - Mat. Finanziaria"},
+    {"ora": "12:30-13:00", "tipo": "Studio", "testo": "Smaltimento Mercoledì - Diritto Privato"},
+    {"ora": "14:00-16:00", "tipo": "Lezione", "testo": "Matematica Finanziaria (Caparrelli B)"},
+    {"ora": "16:00-18:00", "tipo": "Lezione", "testo": "Diritto Privato (Aula 3)"}
+  ],
+  "Venerdi": [
+    {"ora": "08:00-08:30", "tipo": "Studio", "testo": "Post-Lezione Mat. Finanziaria (recupero giovedì)"},
+    {"ora": "08:30-09:00", "tipo": "Studio", "testo": "Post-Lezione Diritto Privato (recupero giovedì)"},
+    {"ora": "09:00-10:00", "tipo": "Studio", "testo": "Studio Contabilità (2ª ora)"},
+    {"ora": "10:00-11:00", "tipo": "Studio", "testo": "Studio Mat. Finanziaria (2ª ora)"},
+    {"ora": "12:00-14:00", "tipo": "Lezione", "testo": "Contabilità (Caparrelli A)"},
+    {"ora": "14:00-16:00", "tipo": "Lezione", "testo": "Matematica Finanziaria (Caparrelli B)"},
+    {"ora": "16:00-16:30", "tipo": "Studio", "testo": "Post-Lezione Mat. Finanziaria"},
+    {"ora": "16:30-17:30", "tipo": "Studio", "testo": "Post-Lezione Contabilità"}
+  ],
+  "Sabato": [
+    {"ora": "09:00-10:45", "tipo": "Skill", "testo": "Simulazione esame Materia A (pari: Contab+Micro / dispari: Diritto+MatFin)"},
+    {"ora": "11:15-13:00", "tipo": "Skill", "testo": "Simulazione esame Materia B"},
+    {"ora": "15:00-16:30", "tipo": "Skill", "testo": "Progetto CTO (Freight Intel Bot)"}
+  ],
+  "Domenica": [
+    {"ora": "10:00-11:30", "tipo": "Skill", "testo": "Progetto CTO (Freight Intel Bot)"},
+    {"ora": "11:30-13:00", "tipo": "Studio", "testo": "CdA: update Obsidian + pianificazione settimana"},
+    {"ora": "15:00-17:30", "tipo": "Skill", "testo": "Ripetizione Orale Globale (30 min x 4 materie)"}
+  ]
+}
