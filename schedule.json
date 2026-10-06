@@ -37,7 +37,7 @@
     {"ora": "09:00-10:00", "tipo": "Studio", "testo": "Studio Contabilità (2ª ora)"},
     {"ora": "10:00-11:00", "tipo": "Studio", "testo": "Studio Mat. Finanziaria (2ª ora)"},
     {"ora": "12:00-14:00", "tipo": "Lezione", "testo": "Contabilità (Caparrelli A)"},
-    {"ora": "14:00-16:00", "tipo": "Lezione", "testo": "Matematica Finanziaria (Caparrelli B)"},
+    {"ora": "14:00-16:00", "tipo": "Lezione", "testo": "Matematica Finanziaria (cripta)"},
     {"ora": "16:00-16:30", "tipo": "Studio", "testo": "Post-Lezione Mat. Finanziaria"},
     {"ora": "16:30-17:30", "tipo": "Studio", "testo": "Post-Lezione Contabilità"}
   ],
